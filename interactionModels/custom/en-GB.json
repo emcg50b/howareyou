@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HowAreYouIntent",
+          "samples": [
+            "Grand",
+            "Super",
+            "Great",
+            "Fine",
+            "Good Thank You",
+            "Good ",
+            "I\u0027m fine",
+            "hello",
+            "how are you"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "how are you"
+    }
+  }
+}
